@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Enter Books</title>
+<style>
+.book
+{
+margin-top:-600px;
+margin-left:500px;
+width:500px;
+height:370px;
+background-color:grey;
+}
+.name{
+margin-left:100px;
+width:300px;
+height:40px;
+}
+.roll{
+margin-top:20px;
+margin-left:100px;
+width:300px;
+height:40px;
+}
+.branch{
+margin-top:20px;
+margin-left:100px;
+width:300px;
+height:40px;
+}
+.sem{
+margin-top:30px;
+margin-left:100px;
+width:300px;
+height:40px;
+}
+.bg{
+margin-top:30px;
+margin-left:100px;
+width:300px;
+height:40px;
+}
+.button{
+margin-top:30px;
+margin-left:200px;
+width:100px;
+height:40px;
+}
+.rese{
+margin-top:-55px;
+margin-left:330px;
+width:100px;
+height:40px;
+}
+td a{
+text-decoration:none;
+}
+</style>
+</head>
+<body>
+<table border="10px" cellpadding="40px" cellspacing="10px" >
+<tr class="common"><td><font size="5" color="black"><a href="index.html">Home</td></font></tr>
+<tr class="common"><td ><font size="5" color="black"><a href="raj">Available Books</font></td></tr>
+<tr class="common"><td><font size="5" color="black"><a href="isue">Issue Books</font></td></tr>
+<tr class="common"><td><font size="5" color="black"><a href="comp">Student Database</font></td></tr>
+<tr class="common"><td><font size="5" color="black"><a href="return">Return Book</font></td></tr>
+</table>
+<div class="book">
+<form action="next" method="post">
+<fieldset>
+<legend><font size="5">Enter Books</font></legend>
+<input type="text" name="authorname" placeholder="Author Name" class="name" required>
+<input type="text" name="publishername" placeholder="Publisher Name" class="roll" required>
+<input type="text" name="isbn" placeholder="ISBN NO." class="branch" required>
+<input type="text" name="copy" placeholder="No Of Copies" class="sem" required>
+<input type="submit" name="name" value="SUBMIT" class="button">
+<input type="reset" name="name" value="RESET" class="rese">
+</fieldset>
+</form>
+
+</div>
+</body>
+</html>
